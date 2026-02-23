@@ -1,8 +1,9 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
 
 # Logs
 logs
@@ -19,6 +20,11 @@ lerna-debug.log*
 .env.test
 .env.production
 
-# temp directory
+# Temp
 .temp
 .tmp
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db

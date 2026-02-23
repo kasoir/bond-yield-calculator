@@ -1,0 +1,23 @@
+{
+  "name": "bond-yield-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasoir/bond-yield-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kasoir/bond-yield-calculator/issues"
+  },
+  "homepage": "https://github.com/kasoir/bond-yield-calculator#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
