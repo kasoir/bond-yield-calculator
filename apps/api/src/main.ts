@@ -10,7 +10,8 @@ async function bootstrap() {
         whitelist: true,
         transform: true,
     }));
-    await app.listen(3000);
-    console.log('Application is running on port 3000');
+    const port = process.env.PORT || 3000;
+    await app.listen(port);
+    console.log(`Application is running on port ${port}`);
 }
 bootstrap();

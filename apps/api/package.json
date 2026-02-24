@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "nest build",
     "start": "node dist/main.js"
   },
   "keywords": [],
