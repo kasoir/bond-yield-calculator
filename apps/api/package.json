@@ -4,9 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "build:engine": "cd libs/bond-engine && npx tsc",
-    "build:api": "cd apps/api && npm run build",
-    "build": "npm run build:engine && npm run build:api",
+    "build": "tsc -p tsconfig.json",
     "start": "node dist/main.js"
   },
   "keywords": [],
